@@ -24,7 +24,7 @@ while (j < arrVar.length) {
 	j++;
 }
 
-//do...while loop
+//do...while loop will make sure to do something once before the condition
 let k = 5;
 do {
 	console.log(k);
@@ -32,7 +32,7 @@ do {
 	k++;
 } while (k < arrVar.length);
 
-//for...of loop iterates till the end
+//for...of loop iterates till the end. Loops through the whole array/string.
 for (elem of arrVar) {
 	console.log("for...of", elem);
 }
